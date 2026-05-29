@@ -10,8 +10,6 @@ Read the full article: [How We Built an AI Skill System for Web Design, Motion D
 
 ## One-command install
 
-After this repository is published to GitHub:
-
 ```bash
 curl -fsSL https://raw.githubusercontent.com/sevq1993-cyber/web-design-motion-skill-family/main/install.sh | bash
 ```
