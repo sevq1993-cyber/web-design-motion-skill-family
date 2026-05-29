@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "prompt": "Audit this local website, improve the visual quality, and verify it in the browser.",
+      "should_trigger": ["site-design-audit", "frontend-design", "frontend-ui-engineering"],
+      "should_not_trigger": ["gsap-scrolltrigger", "lottie-animations"]
+    },
+    {
+      "prompt": "Make the site feel alive with tasteful animation.",
+      "should_trigger": ["frontend-motion-style-system", "frontend-design"],
+      "should_not_trigger": ["gsap-scrolltrigger"]
+    },
+    {
+      "prompt": "Add a pinned scrubbed scroll sequence to the product story.",
+      "should_trigger": ["frontend-motion-style-system", "gsap-scrolltrigger"],
+      "should_not_trigger": ["lottie-animations"]
+    },
+    {
+      "prompt": "Add simple hover and focus polish to the pricing cards.",
+      "should_trigger": ["frontend-ui-engineering", "frontend-motion-style-system"],
+      "should_not_trigger": ["gsap-scrolltrigger", "rive-interactive"]
+    },
+    {
+      "prompt": "The project already uses framer motion. Fix the modal exit transition.",
+      "should_trigger": ["motion-react"],
+      "should_not_trigger": ["gsap-scrolltrigger"]
+    },
+    {
+      "prompt": "Implement this exported .lottie animation in the hero.",
+      "should_trigger": ["lottie-animations"],
+      "should_not_trigger": ["rive-interactive"]
+    },
+    {
+      "prompt": "Use this .riv file for an interactive onboarding character.",
+      "should_trigger": ["rive-interactive"],
+      "should_not_trigger": ["lottie-animations"]
+    },
+    {
+      "prompt": "Create a SaaS dashboard UI and keep it dense, useful, and easy to scan.",
+      "should_trigger": ["site-design-create", "frontend-ui-engineering", "frontend-design"],
+      "should_not_trigger": ["gsap-scrolltrigger"]
+    },
+    {
+      "prompt": "Extract a design system from these screenshots and output tokens and component states.",
+      "should_trigger": ["ui-designer"],
+      "should_not_trigger": ["site-redesign"]
+    },
+    {
+      "prompt": "Redesign the existing landing page without breaking forms, routes, SEO metadata, or analytics hooks.",
+      "should_trigger": ["site-redesign", "frontend-design", "frontend-ui-engineering"],
+      "should_not_trigger": ["ui-designer"]
+    },
+    {
+      "prompt": "Create an immersive WebGL hero scene with camera motion and reduced-motion fallback.",
+      "should_trigger": ["frontend-motion-style-system", "lightweight-3d-effects"],
+      "should_not_trigger": ["lottie-animations"]
+    },
+    {
+      "prompt": "Fix a TypeScript error in a utility function.",
+      "should_trigger": [],
+      "should_not_trigger": ["frontend-design", "frontend-motion-style-system"]
+    },
+    {
+      "prompt": "Improve button focus states, contrast, mobile layout, and form errors.",
+      "should_trigger": ["frontend-ui-engineering"],
+      "should_not_trigger": ["gsap-scrolltrigger"]
+    },
+    {
+      "prompt": "Add a motion budget before implementing animation changes.",
+      "should_trigger": ["frontend-motion-style-system"],
+      "should_not_trigger": ["lottie-animations"]
+    },
+    {
+      "prompt": "Review the visual design of the existing homepage from a screenshot.",
+      "should_trigger": ["site-design-audit", "frontend-design"],
+      "should_not_trigger": ["ui-designer"]
+    },
+    {
+      "prompt": "Turn this screenshot set into DESIGN.md, tokens, components, states, and accessibility notes.",
+      "should_trigger": ["ui-designer"],
+      "should_not_trigger": ["site-design-audit"]
+    },
+    {
+      "prompt": "Add scroll-linked accent motion, but avoid unnecessary parallax and smooth scrolling.",
+      "should_trigger": ["frontend-motion-style-system"],
+      "should_not_trigger": ["lottie-animations"]
+    },
+    {
+      "prompt": "Build a new product landing page with truthful content and no invented proof.",
+      "should_trigger": ["site-design-create", "frontend-design", "frontend-ui-engineering"],
+      "should_not_trigger": ["gsap-scrolltrigger"]
+    },
+    {
+      "prompt": "Polish a CRM table view for repeated operational use.",
+      "should_trigger": ["frontend-ui-engineering", "frontend-design"],
+      "should_not_trigger": ["site-design-create"]
+    },
+    {
+      "prompt": "Add an animated state machine for a checkout success illustration.",
+      "should_trigger": ["frontend-motion-style-system", "rive-interactive"],
+      "should_not_trigger": ["gsap-scrolltrigger"]
+    }
+  ]
+}
+
